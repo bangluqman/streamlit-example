@@ -12,6 +12,6 @@ txtInput = st.text_area("Masukkan Text disini...")
 bt = st.button("Ringkas Artikel")
 
 summary_sentences = "Teks hasil rangkuman"
-txtOutput = st.text_area(summary_sentences)
+txtOutput = st.text(summary_sentences)
 
 
