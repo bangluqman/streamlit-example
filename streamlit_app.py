@@ -10,6 +10,8 @@ Aplikasi untuk merangkum artikel.
 
 txtInput = st.text_area("Masukkan Text disini...")
 bt = st.button("Ringkas Artikel")
-txtOutput = st.text_area("Output")
+
+summary_sentences = "Teks hasil rangkuman"
+txtOutput = st.text_area(summary_sentences)
 
 
